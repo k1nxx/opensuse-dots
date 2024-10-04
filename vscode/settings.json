@@ -1,0 +1,46 @@
+{
+  "editor.fontFamily": "JetbrainsMono Nerd Font",
+  "files.autoSave": "afterDelay",
+  "editor.fontSize": 20,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.fontLigatures": true,
+  "workbench.colorTheme": "Celestial",
+  "workbench.activityBar.location": "bottom",
+  // "css.lint.important": "warning",
+  // "scss.lint.important": "warning",
+  "debug.toolBarLocation": "docked",
+  "explorer.autoReveal": true,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "html.format.enable": true,
+  "javascript.format.enable": true,
+  "javascript.format.insertSpaceAfterConstructor": true,
+  "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+  // "javascript.updateImportsOnFileMove.enabled": "always",
+  // "typescript.updateImportsOnFileMove.enabled": "always",
+  "markdown.preview.scrollEditorWithPreview": true,
+  "markdown.preview.scrollPreviewWithEditor": true,
+  "editor.rulers": [
+    100
+  ],
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  // "java.saveActions.organizeImports": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "tabnine.experimentalAutoImports": true,
+  "window.titleBarStyle": "custom",
+  "workbench.iconTheme": "vscode-icons",
+  "microprofile.alwaysShowOverview": false
+}

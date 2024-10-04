@@ -1,0 +1,103 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+      "key": "ctrl+l",
+      "command": "-workbench.action.chat.newChat",
+      "when": "chatIsEnabled && inChat"
+    },
+    {
+      "key": "ctrl+l g",
+      "command": "-extension.openInGitHub"
+    },
+    {
+      "key": "ctrl+l p",
+      "command": "-extension.openPrGitProvider"
+    },
+    {
+      "key": "ctrl+l c",
+      "command": "-extension.copyGitHubLinkToClipboard"
+    },
+    {
+      "key": "ctrl+l",
+      "command": "-notebook.centerActiveCell",
+      "when": "notebookEditorFocused"
+    },
+    {
+      "key": "ctrl+5",
+      "command": "workbench.action.debug.run",
+      "when": "debuggersAvailable && debugState != 'initializing'"
+    },
+    {
+      "key": "ctrl+f5",
+      "command": "-workbench.action.debug.run",
+      "when": "debuggersAvailable && debugState != 'initializing'"
+    },
+    {
+      "key": "ctrl+k ctrl+i",
+      "command": "-editor.debug.action.showDebugHover",
+      "when": "editorTextFocus && inDebugMode"
+    },
+    {
+      "key": "ctrl+k ctrl+i",
+      "command": "-editor.action.showHover",
+      "when": "editorTextFocus"
+    },
+    {
+      "key": "ctrl+k ctrl+i",
+      "command": "-list.showHover",
+      "when": "listFocus && !inputFocus && !treestickyScrollFocused"
+    },
+    {
+      "key": "ctrl+2",
+      "command": "workbench.action.terminal.focus",
+      "when": "accessibilityModeEnabled && accessibleViewOnLastLine && terminalHasBeenCreated && accessibleViewCurrentProviderId == 'terminal' || accessibilityModeEnabled && accessibleViewOnLastLine && terminalProcessSupported && accessibleViewCurrentProviderId == 'terminal'"
+    },
+    {
+      "key": "ctrl+down",
+      "command": "-workbench.action.terminal.focus",
+      "when": "accessibilityModeEnabled && accessibleViewOnLastLine && terminalHasBeenCreated && accessibleViewCurrentProviderId == 'terminal' || accessibilityModeEnabled && accessibleViewOnLastLine && terminalProcessSupported && accessibleViewCurrentProviderId == 'terminal'"
+    },
+    {
+      "key": "ctrl+2",
+      "command": "workbench.action.terminal.focus"
+    },
+    {
+      "key": "ctrl+2",
+      "command": "workbench.action.focusActiveEditorGroup",
+      "when": "terminalFocus"
+    },
+    {
+      "key": "ctrl+3",
+      "command": "-workbench.action.focusThirdEditorGroup"
+    },
+    {
+      "key": "ctrl+3",
+      "command": "workbench.files.action.focusFilesExplorer"
+    },
+    // {
+    //   "key": "ctrl+shift+l",
+    //   "command": "editor.action.transformToUppercase",
+    //   "when": "editorTextFocus"
+    // },
+    {
+      "key": "ctrl+shift+l",
+      "command": "-selectAllSearchEditorMatches",
+      "when": "inSearchEditor"
+    },
+    {
+      "key": "ctrl+shift+l",
+      "command": "extension.insertSysoutStatement",
+      "when": "editorTextFocus && editorLangId == 'java'"
+    },
+    {
+      "key": "ctrl+shift+l",
+      "command": "-editor.action.selectHighlights",
+      "when": "editorFocus"
+    },
+    {
+      "key": "ctrl+shift+l",
+      "command": "-addCursorsAtSearchResults",
+      "when": "fileMatchOrMatchFocus && searchViewletVisible"
+    }
+  ]
+  
