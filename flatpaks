@@ -1,0 +1,37 @@
+Name                                             Application ID                                   Version         Branch              Installation
+Flatseal                                         com.github.tchx84.Flatseal                       2.2.0           stable              system
+Bottles                                          com.usebottles.bottles                           51.13           stable              system
+Seabird                                          dev.skynomads.Seabird                            v0.4.2          stable              system
+Soundux                                          io.github.Soundux                                0.2.7           stable              system
+Warehouse                                        io.github.flattool.Warehouse                     1.6.4           stable              system
+Newsflash                                        io.gitlab.news_flash.NewsFlash                   3.3.2           stable              system
+Podman Desktop                                   io.podman_desktop.PodmanDesktop                  1.11.1          stable              system
+Obsidian                                         md.obsidian.Obsidian                             1.6.5           stable              system
+Dev Toolbox                                      me.iepure.devtoolbox                             1.1.1           stable              system
+Freedesktop Platform                             org.freedesktop.Platform                         23.08.20        23.08               system
+Mesa                                             org.freedesktop.Platform.GL.default              24.1.1          23.08               system
+Mesa (Extra)                                     org.freedesktop.Platform.GL.default              24.1.1          23.08-extra         system
+Mesa                                             org.freedesktop.Platform.GL32.default            24.1.1          23.08               system
+ffmpeg-full                                      org.freedesktop.Platform.ffmpeg-full                             23.08               system
+i386                                             org.freedesktop.Platform.ffmpeg_full.i386                        23.08               system
+openh264                                         org.freedesktop.Platform.openh264                2.1.0           2.2.0               system
+openh264                                         org.freedesktop.Platform.openh264                2.4.1           2.4.1               system
+Freedesktop SDK                                  org.freedesktop.Sdk                              23.08.20        23.08               system
+GNU Image Manipulation Program                   org.gimp.GIMP                                    2.10.38         stable              system
+Calendar                                         org.gnome.Calendar                               46.0            stable              system
+GNOME Application Platform version 45            org.gnome.Platform                                               45                  system
+GNOME Application Platform version 46            org.gnome.Platform                                               46                  system
+i386                                             org.gnome.Platform.Compat.i386                                   45                  system
+i386                                             org.gnome.Platform.Compat.i386                                   46                  system
+GNOME Software Development Kit version 46        org.gnome.Sdk                                                    46                  system
+Breeze GTK theme                                 org.gtk.Gtk3theme.Breeze                         6.1.2           3.22                system
+KiCad                                            org.kicad.KiCad                                  8.0.3           stable              system
+Footprints                                       org.kicad.KiCad.Library.Footprints                               stable              system
+Packages3D                                       org.kicad.KiCad.Library.Packages3D                               stable              system
+Symbols                                          org.kicad.KiCad.Library.Symbols                                  stable              system
+Templates                                        org.kicad.KiCad.Library.Templates                                stable              system
+Telegram Desktop                                 org.telegram.desktop                             5.2.3           stable              system
+Telegram Desktop Webview Add-on                  org.telegram.desktop.webview                     2.44.2          stable              system
+DXVK                                             org.winehq.Wine.DLLs.dxvk                        2.4             stable-23.08        system
+Gecko                                            org.winehq.Wine.gecko                                            stable-23.08        system
+Mono                                             org.winehq.Wine.mono                                             stable-23.08        system

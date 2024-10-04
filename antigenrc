@@ -1,0 +1,23 @@
+# Load oh-my-zsh library
+antigen use oh-my-zsh
+
+# Load bundles from the default repo (oh-my-zsh)
+antigen bundle git
+antigen bundle command-not-found
+antigen bundle docker
+antigen bundle jsontools
+antigen bundle copybuffer
+antigen bundle copydir
+antigen bundle copyfile
+antigen bundle sudo
+antigen bundle gradle-completion
+antigen bundle fzf
+antigen bundle zoxide
+
+# Load bundles from external repos
+antigen bundle zsh-users/zsh-completions
+antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle zsh-users/zsh-syntax-highlighting
+
+# Tell Antigen that you're done
+antigen apply
