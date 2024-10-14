@@ -1,21 +1,15 @@
 # Applications
 ## Coding
 - Vscode
-- ~~Intellij~~
+- Intellij
 - Postman
-- ~~Warp (terminal)~~
-- Terminator
+- wezterm
 - dbvisualizer
-## Misc
-- ~~Discord~~
-- ~~Steam~~
-- Obsidian
 
 # What i use
 `sdkman`
 `nvm`
 `bat`
-~~`fish`~~
 `zsh`
 `tmux`
 `fzf`
